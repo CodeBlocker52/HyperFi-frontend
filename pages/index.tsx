@@ -29,32 +29,14 @@ export default function Home() {
         <Navbar />
         <Hero2 />
         <Feature />
-        <Panel
-          img={Ghost1}
-          glowimg={Glow1}
-          title={"AAVE"}
-          desc={
-            "The AAVE protocol is a decentralized finance (DeFi) platform built on top of the Ethereum blockchain. DeFi refers to a new type of financial system that is built on blockchain technology....."
-          }
-          link={"/aave"}
-        />
         <Panel2
           img={Ghost2}
           glowimg={Glow2}
-          title={"Curve Finance"}
+          title={"Unsure how HyperFi works?"}
           desc={
-            "Curve Finance is a decentralized finance (DeFi) platform that allows users to trade stablecoins and earn fees in the process. Stablecoins are cryptocurrencies that are pegged to the value of a stable asset....."
+            "HyperFi simplifies DeFi by providing easy user onboarding, asset management, liquidity provision, staking, governance, analytics, education, and security features. With HyperFi, users can access DeFi services seamlessly and securely, empowering them to participate in the decentralized financial ecosystem."
           }
           link={"/curve"}
-        />
-        <Panel
-          img={SwordShield}
-          glowimg={Glow3}
-          title={"Decentralized Finance"}
-          desc={
-            "DeFi stands for Decentralized Finance, which refers to a new type of financial system that is built using blockchain technology. Blockchain is a digital ledger that is distributed ....."
-          }
-          link={"/defi"}
         />
         <Newsletter />
         <Footer />

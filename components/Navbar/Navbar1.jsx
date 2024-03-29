@@ -17,9 +17,9 @@ const Navbar1 = () => {
         </div>
         <div className="flex justify-around my-auto ml-16 text-[#ffffffec]">
           <a className={` ${styles.links} cursor-pointer mx-10`}>Learn</a>
-          <a className={` ${styles.links} cursor-pointer mx-10`}>Build</a>
-          <a className={` ${styles.links} cursor-pointer mx-10`}>Explore</a>
-          <a className={` ${styles.links} cursor-pointer mx-10`}>Reviews</a>
+          <a className={` ${styles.links} cursor-pointer mx-10`}>Calculate</a>
+          <a className={` ${styles.links} cursor-pointer mx-10`}>About</a>
+          <a className={` ${styles.links} cursor-pointer mx-10`}>Contact</a>
         </div>
         <div className=" my-auto">
           <ConnectButton chainStatus="icon" />

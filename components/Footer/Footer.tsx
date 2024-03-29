@@ -10,9 +10,7 @@ const Footer = () => {
           <div>
             <Image src={Logo} alt={"nav-logo"} className=" w-14" />
             <p className="max-w-xs mt-4 text-gray-400">
-              A defi protocol that makes it easy for beginners to get into web3
-              investing by aggregating yields from the most battle tested defi
-              protocols.
+            Empowering Privacy, Social Interaction, and Financial Freedom.
             </p>
 
             <ul className="flex gap-6 mt-8">
@@ -165,7 +163,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-400 transition hover:opacity-75"
                     >
-                      SAAVE SDK
+                      Testnet Tokens
                     </a>
                   </li>
                 </ul>
@@ -182,7 +180,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-400 transition hover:opacity-75"
                     >
-                      Tokens
+                      About
                     </a>
                   </li>
 
@@ -191,7 +189,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-400 transition hover:opacity-75"
                     >
-                      Apps & Services
+                      Contact
                     </a>
                   </li>
 
@@ -217,7 +215,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-400 transition hover:opacity-75"
                     >
-                      About
+                      Launch App
                     </a>
                   </li>
 
@@ -226,7 +224,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-400 transition hover:opacity-75"
                     >
-                      Returns Policy
+                      Services
                     </a>
                   </li>
 
@@ -235,7 +233,7 @@ const Footer = () => {
                       href="#"
                       className="text-gray-400 transition hover:opacity-75"
                     >
-                      Refund Policy
+                      Privacy & Policy
                     </a>
                   </li>
                 </ul>

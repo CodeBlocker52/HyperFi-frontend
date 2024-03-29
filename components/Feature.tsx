@@ -6,30 +6,37 @@ import Card from "@/components/Cards/Card";
 
 const Feature = () => {
   return (
-    <div className="mt-56 ">
+    <div className="mt-5 ">
       <h1 className="font-extrabold font-Poppins text-4xl md:text-6xl text-center leading-[64px] text-white my-5 ">
-        What does HyperFi do?
+      Features of HyperFi?
       </h1>
       <div className="flex flex-row justify-center flex-wrap px-10 mt-20 mb-12">
         <Card
           img={Sword}
-          title={"Battle Tested"}
+          title={"Simplified DeFi Experience"}
           description={
-            "Earn the safest yields from the most battle tested defi protocols"
+            "HyperFi streamlines the complexities of decentralized finance (DeFi) into an intuitive platform, making it accessible to users of all levels of expertise."
           }
         />
         <Card
           img={Ecto}
-          title={"Easy UI"}
+          title={"Trivago of Exchanges"}
           description={
-            "View your profit in real-time"
+            "HyperFi acts as a Aggregator that scans all the Exchanges and provides the list of the APY's of all exchanges and lets the user decide in which exchange their money should be staked/ invested with a power index for each exchange."
           }
         />
         <Card
           img={Pestle}
-          title={"Simplified"}
+          title={"Compunder Calculator"}
           description={
-            "Combine different strategies into one simple one"
+            "The Platform offers it users to calculate the growth of their investment for the duration."
+          }
+        />
+        <Card
+          img={Sword}
+          title={"Yield Optimization Tools"}
+          description={
+            "HyperFi provides users with advanced tools and strategies to optimize their yield farming and liquidity mining activities, maximizing their returns on investment."
           }
         />
       </div>
