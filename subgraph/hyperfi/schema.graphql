@@ -30,7 +30,7 @@ type RoleRevoked @entity(immutable: true) {
 
 type StudentAdded @entity(immutable: true) {
   id: Bytes!
-  HyperFiFactory_id: BigInt! # uint256
+  HyperfiFactory_id: BigInt! # uint256
   firstname: String! # string
   lastname: String! # string
   birthdate: BigInt! # uint256
@@ -41,7 +41,7 @@ type StudentAdded @entity(immutable: true) {
 
 type StudentDeleted @entity(immutable: true) {
   id: Bytes!
-  HyperFiFactory_id: BigInt! # uint256
+  HyperfiFactory_id: BigInt! # uint256
   blockNumber: BigInt!
   blockTimestamp: BigInt!
   transactionHash: Bytes!
@@ -49,7 +49,7 @@ type StudentDeleted @entity(immutable: true) {
 
 type StudentEdited @entity(immutable: true) {
   id: Bytes!
-  HyperFiFactory_id: BigInt! # uint256
+  HyperfiFactory_id: BigInt! # uint256
   firstname: String! # string
   lastname: String! # string
   birthdate: BigInt! # uint256

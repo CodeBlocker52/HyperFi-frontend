@@ -5,11 +5,11 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
-    name: HyperFiFactory
+    name: HyperfiFactory
     network: polygon-zkevm-testnet
     source:
       address: "0x7b7f58e99f2abe1b25dcaf274d42a7914d76c74e"
-      abi: HyperFiFactory
+      abi: HyperfiFactory
       startBlock: 1830603
     mapping:
       kind: ethereum/events
@@ -26,8 +26,8 @@ dataSources:
         - multiSigCleared
         - multiSigSigned
       abis:
-        - name: HyperFiFactory
-          file: ./abis/HyperFiFactory.json
+        - name: HyperfiFactory
+          file: ./abis/HyperfiFactory.json
       eventHandlers:
         - event: RoleAdminChanged(indexed bytes32,indexed bytes32,indexed bytes32)
           handler: handleRoleAdminChanged
@@ -47,4 +47,4 @@ dataSources:
           handler: handlemultiSigCleared
         - event: multiSigSigned(bytes32)
           handler: handlemultiSigSigned
-      file: ./src/hyper-fi-factory.ts
+      file: ./src/hyperfi-factory.ts
