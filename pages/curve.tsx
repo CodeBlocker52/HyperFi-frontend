@@ -31,7 +31,7 @@ function Docs() {
           </h1>
           <div className="flex flex-wrap items-center justify-evenly p-8 md:p-10 ">
             <p className="text-gray-400 leading-loose text-left w-full md:w-1/2 lg:w-1/3 text-xl p-4">
-            What's crypto?
+            Whats crypto?
             Cryptocurrency, or crypto, is a digital form of currency secured by cryptography and operates on decentralized networks like blockchain, enabling secure peer-to-peer transactions without intermediaries.
             </p>
             <div className="md:w-96 flex items-center justify-center">
@@ -50,7 +50,7 @@ function Docs() {
 
         <div className="text-center space-y-4">
           <h1 className="text-4xl font-Manrope md:text-6xl font-extrabold text-white">
-            What's Blockchain?
+            Whats Blockchain?
           </h1>
           <div className="flex flex-wrap items-center justify-evenly p-8 md:p-10 ">
             <div className="md:w-auto flex items-center justify-center">
@@ -72,7 +72,7 @@ function Docs() {
 
         <div className="text-center space-y-4">
           <h1 className="text-4xl font-Manrope md:text-6xl font-extrabold text-white">
-            What's Defi?
+            Whats Defi?
           </h1>
           <div className="flex flex-wrap items-center justify-evenly p-8 md:p-10 ">
             <p className="text-gray-400 leading-loose text-left w-full md:w-1/2 lg:w-1/3 text-xl p-4">
