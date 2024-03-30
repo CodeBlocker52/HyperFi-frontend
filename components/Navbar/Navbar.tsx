@@ -79,7 +79,7 @@ export default function Example() {
 
                 <button
                   onClick={() =>
-                    router.push("AnonAdhar")
+                    router.push("https://anonaadhaarverification.vercel.app/")
                   }
                   className=" bg-white hidden sm:block rounded-full w-48 text-base font-medium px-2"
                 >
