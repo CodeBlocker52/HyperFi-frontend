@@ -16,6 +16,8 @@ import { ArcanaConnector } from "@arcana/auth-wagmi";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { publicProvider } from "wagmi/providers/public";
 import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
+import "@/styles/globals.css";
+import { AnonAadhaarProvider } from "@anon-aadhaar/react";
 
 export const ArcanaRainbowConnector = ({ chains }) => {
   return {

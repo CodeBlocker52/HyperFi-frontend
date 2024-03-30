@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 
 const navigation = [
   { name: "Learn", href: "#", current: true },
-  { name: "Calculate", href: "#", current: false },
+  { name: "Calculate", href: "https://hyperfi-shield-react-app.vercel.app/", current: false },
   { name: "About", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
@@ -79,11 +79,11 @@ export default function Example() {
 
                 <button
                   onClick={() =>
-                    router.push("https://main-app-six.vercel.app/")
+                    router.push("AnonAdhar")
                   }
                   className=" bg-white hidden sm:block rounded-full w-48 text-base font-medium px-2"
                 >
-                  Launch App &gt;
+                  Invest &gt;
                 </button>
               </div>
             </div>
