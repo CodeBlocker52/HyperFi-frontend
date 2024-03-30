@@ -8,7 +8,7 @@ import {
   certificationEmited as certificationEmitedEvent,
   multiSigCleared as multiSigClearedEvent,
   multiSigSigned as multiSigSignedEvent
-} from "../generated/HyperfiFactory/HyperfiFactory"
+} from "../generated/HyperFiSubFactory/HyperFiSubFactory"
 import {
   RoleAdminChanged,
   RoleGranted,
@@ -70,7 +70,7 @@ export function handleStudentAdded(event: StudentAddedEvent): void {
   let entity = new StudentAdded(
     event.transaction.hash.concatI32(event.logIndex.toI32())
   )
-  entity.HyperfiFactory_id = event.params.id
+  entity.HyperFiSubFactory_id = event.params.id
   entity.firstname = event.params.firstname
   entity.lastname = event.params.lastname
   entity.birthdate = event.params.birthdate
@@ -86,7 +86,7 @@ export function handleStudentDeleted(event: StudentDeletedEvent): void {
   let entity = new StudentDeleted(
     event.transaction.hash.concatI32(event.logIndex.toI32())
   )
-  entity.HyperfiFactory_id = event.params.id
+  entity.HyperFiSubFactory_id = event.params.id
 
   entity.blockNumber = event.block.number
   entity.blockTimestamp = event.block.timestamp
@@ -99,7 +99,7 @@ export function handleStudentEdited(event: StudentEditedEvent): void {
   let entity = new StudentEdited(
     event.transaction.hash.concatI32(event.logIndex.toI32())
   )
-  entity.HyperfiFactory_id = event.params.id
+  entity.HyperFiSubFactory_id = event.params.id
   entity.firstname = event.params.firstname
   entity.lastname = event.params.lastname
   entity.birthdate = event.params.birthdate

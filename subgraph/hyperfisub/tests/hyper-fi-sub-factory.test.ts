@@ -8,9 +8,9 @@ import {
 } from "matchstick-as/assembly/index"
 import { Bytes, Address, BigInt } from "@graphprotocol/graph-ts"
 import { RoleAdminChanged } from "../generated/schema"
-import { RoleAdminChanged as RoleAdminChangedEvent } from "../generated/HyperfiFactory/HyperfiFactory"
-import { handleRoleAdminChanged } from "../src/hyperfi-factory"
-import { createRoleAdminChangedEvent } from "./hyperfi-factory-utils"
+import { RoleAdminChanged as RoleAdminChangedEvent } from "../generated/HyperFiSubFactory/HyperFiSubFactory"
+import { handleRoleAdminChanged } from "../src/hyper-fi-sub-factory"
+import { createRoleAdminChangedEvent } from "./hyper-fi-sub-factory-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
 // https://thegraph.com/docs/en/developer/matchstick/#tests-structure-0-5-0

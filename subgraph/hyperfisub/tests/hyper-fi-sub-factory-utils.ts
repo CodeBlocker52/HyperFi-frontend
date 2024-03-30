@@ -10,7 +10,7 @@ import {
   certificationEmited,
   multiSigCleared,
   multiSigSigned
-} from "../generated/HyperfiFactory/HyperfiFactory"
+} from "../generated/HyperFiSubFactory/HyperFiSubFactory"
 
 export function createRoleAdminChangedEvent(
   role: Bytes,
